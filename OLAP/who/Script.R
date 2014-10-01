@@ -1,4 +1,5 @@
 # Read in data
+setwd("/home/mario/mineria_en_accion/OLAP/who")
 
 WHO = read.csv("WHO.csv")
 
@@ -12,7 +13,7 @@ plot(WHO$GNI, WHO$FertilityRate)
 # Let's redo this using ggplot 
 
 # Install and load the ggplot2 library:
-install.packages("ggplot2")
+#install.packages("ggplot2")
 library(ggplot2)
 
 # Create the ggplot object with the data and the aesthetic mapping:

@@ -8,7 +8,7 @@ stores <- read.csv("stores.csv")
 
 ## Describir la data
 summary(sales)
-install.packages("lubridate")
+#install.packages("lubridate")
 library(lubridate)
 sales$Date<-ymd(sales[,"Date"])
 summary(sales)
@@ -27,7 +27,7 @@ merge(stores,count.departments)
 
 #roll-up
 store.sales <- aggregate(Weekly_Sales ~ Store,FUN=sum,na.rm=TRUE,data=sales)
-colnames(store.sales)[4] <- "Sales"
+colnames(store.sales)[2] <- "Sales"
 store.sales <- merge(stores,store.sales)
 store.sales <- merge(store.sales,count.departments)
 store.features <- aggregate(cbind(Temperature=features$Temperature,Fuel_Price=features$Fuel_Price,CPI=features$CPI,Unemployment=features$Unemployment),by=list(Store=features$Store),FUN=mean,na.rm=TRUE)
