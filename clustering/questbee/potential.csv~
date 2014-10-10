@@ -1,0 +1,10 @@
+date	type	user	q1	q2	q3	q4	q5	q6	q7	q8	q9	q10	q11	q12	q13	q14	q15
+2014-08-24	u	mnavas	2	2	[0, 2]	0	2	2	1	1	0	0	[0, 2]	0	1	2	0	
+2014-10-01	u	mnavas	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	
+2014-10-02	u	lenchanteur	2	1	0	0	2	2	1	0	0	0	2	1	0	2	1	
+2014-10-03	u	Diego Ortiz	2	0	[0, 2]	0	1	2	0	0	2	2	[0, 1, 2]	0	0	2	0	
+2014-10-03	u	MariaJose	2	1	2	1	0	0	0	0	0	2	0	0	0	2	1	
+2014-10-03	u	MariaJose	2	0	2	1	0	0	0	0	0	2	NA	0	0	0	1	
+2014-10-03	a	QQDWYaXiIh	0	0	2	0	1	2	0	0	0	2	0	1	0	0	0	
+2014-10-03	u	dan2ysgl	0	0	2	0	1	2	0	0	0	2	0	1	0	0	0	
+2014-10-08	u	warroyor	0	0	2	1	1	2	0	1	0	2	1	2	0	2	1	
